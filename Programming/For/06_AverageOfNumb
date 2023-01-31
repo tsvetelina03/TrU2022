@@ -1,23 +1,24 @@
-#include<iostream>
+#include <iostream> 
 using namespace std;
-double n;
-double avg=1;
-double sbor=0;
-int main() {
-    do{
-    cout<<"Vuvedete chislo: ";
-    cin>>n;
-    }while(n==0);
-    for(int i=1;i<=n;i++){
-   
-    sbor=sbor+i;
-  
-    }
-    avg=sbor/n;
-  
-    cout<<avg<<endl;
+    double sum = 0.00;
+    int couter = 0; 
+    double x;
+      double n;
+int main(){ 
     
-   
-return 0;
- 
+    
+    do{
+       
+        cout << "Въведете число n: " ;
+        cin >> n;
+        x = n; 
+        couter++; 
+        sum+= x;
+    } while (x != 0);
+    
+    couter--;
+    double averagre = sum / couter; 
+    cout << "Среднa стойност: " << averagre;
+    return 0;
 }
+
