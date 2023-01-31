@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+double n;
+double avg=1;
+double sbor=0;
+int main() {
+    do{
+    cout<<"Vuvedete chislo: ";
+    cin>>n;
+    }while(n==0);
+    for(int i=1;i<=n;i++){
+   
+    sbor=sbor+i;
+  
+    }
+    avg=sbor/n;
+  
+    cout<<avg<<endl;
+    
+   
+return 0;
+ 
+}
