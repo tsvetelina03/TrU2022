@@ -1,0 +1,26 @@
+#include<iostream> 
+ 
+using namespace std; 
+ 
+int n,fib; 
+int a=0;
+int b=1;
+int main() { 
+    
+    do{
+        cout<<"Vuvedete cislo ;";
+        cin>>n;
+        
+    }while(n<0);
+    for(int i=1;i<=n;i++){
+        int c=a;
+        a=a+b;
+        b=c;
+    }
+    fib=a;
+ 
+    cout<<fib<<endl;
+    
+return 0; 
+
+}
