@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int n,m,y;
+int main() {
+    
+    
+    cout<<"Vuvedete chislo: ";
+    cin>>m>>n;
+   y=1;
+    for(int i=m;i<=n;i++){
+   
+    y=y*i;
+  
+    }
+ 
+  
+    cout<<y<<endl;
+    
+   
+return 0;
+ 
+}
